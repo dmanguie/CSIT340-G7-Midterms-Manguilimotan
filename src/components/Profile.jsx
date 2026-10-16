@@ -1,6 +1,7 @@
 
 import Bio from "./Bio";
 import StatCard from "./StatCard";
+import Hire from "./Hire";
 
 function Profile({
   followers,
@@ -42,6 +43,7 @@ function Profile({
           Reset
         </button>
       </div>
+      <Hire rate={rate} />
     </div>
   );
 }
